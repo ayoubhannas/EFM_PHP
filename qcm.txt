@@ -1,0 +1,19 @@
+1- le mot-cle qui permet aux membres d'une classe(méthodes et proprietes) d'etre utilises sans avoir a instancier une nouvelle instance de la classe : "static".
+
+2-toString() qui permet de définir comment un objet doit être converti en chaîne de caractères.
+
+3- <?php
+$fichier = fopen("statistique.txt", "r");
+while (!feof($fichier)) {
+    $ligne = fgets($fichier);
+    echo $ligne . "<br>";
+}
+
+fclose($fichier);
+?>
+
+
+4- La méthode qui trie un tableau selon la clé par ordre décroissant en PHP est krsort().
+5- <?php 
+setcookies('couleur','ROUGE',time()+(20+86400)); 
+?>
